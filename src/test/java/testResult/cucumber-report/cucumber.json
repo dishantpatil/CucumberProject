@@ -1,0 +1,206 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13932175628,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.applyHook(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC_01",
+        "description": "",
+        "id": "esct;tc-01;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 916397294,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.removeHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 524795299,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Esct User Name rohan@testmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rohan@testmail.com",
+                  "offset": 21
+                }
+              ],
+              "location": "Esct.enterUserName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 259219523,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Esct Password aress123$Z",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aress123$Z",
+                  "offset": 20
+                }
+              ],
+              "location": "Esct.enterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20027389601,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Esct Login button",
+            "match": {
+              "location": "Esct.clickOnLoginButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Esct"
+          }
+        ]
+      }
+    ],
+    "name": "Esct",
+    "description": "",
+    "id": "esct",
+    "keyword": "Feature",
+    "uri": "Esct.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9966734730,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.applyHook(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC_01",
+        "description": "",
+        "id": "esct;tc-01;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 921771854,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.removeHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 340532215,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Esct User Name rohan@testmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rohan@testmail.com",
+                  "offset": 21
+                }
+              ],
+              "location": "Esct.enterUserName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 252000517,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Esct Password aress123$Z",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aress123$Z",
+                  "offset": 20
+                }
+              ],
+              "location": "Esct.enterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20524320754,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Esct Login button",
+            "match": {
+              "location": "Esct.clickOnLoginButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Esct"
+          }
+        ]
+      }
+    ],
+    "name": "Esct",
+    "description": "",
+    "id": "esct",
+    "keyword": "Feature",
+    "uri": "Esctparallel.feature"
+  }
+]

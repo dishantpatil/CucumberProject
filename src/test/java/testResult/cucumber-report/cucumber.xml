@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="67.665337">
+<testcase classname="Esct" name="TC_01" time="35.659977">
+<system-out><![CDATA[Given Enter Esct User Name rohan@testmail.com...............................passed
+Then Enter Esct Password aress123$Z.........................................passed
+Then Click on Esct Login button.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Esct" name="TC_01" time="32.00536">
+<system-out><![CDATA[Given Enter Esct User Name rohan@testmail.com...............................passed
+Then Enter Esct Password aress123$Z.........................................passed
+Then Click on Esct Login button.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
